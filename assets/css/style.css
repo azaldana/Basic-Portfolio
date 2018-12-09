@@ -1,0 +1,250 @@
+html, body {
+    margin: 0;
+   }
+
+body {
+    /* background-image: url("wallpaper.jpg"); */
+    background-position: 50px 0px 0px 0px;
+
+    
+}
+
+.header {
+    /* width: 960px; */
+    background-color: #ffffff;
+    border-bottom: 1px solid #ccc;
+    height: 100px;
+    margin-bottom: 0px;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    margin: auto;
+
+}
+
+#about-me {
+    background-color: #ffffff;
+    border: 1px solid #dddddd;
+    width: 960px;
+    height: 375px;
+    margin: 0 auto;
+    /* overflow: auto; */
+    padding: 20px;
+    margin-top: 50px;
+}
+
+#contact {
+    background-color: #ffffff;
+    border: 1px solid #dddddd;
+    width: 960px;
+    height: 550px;
+    margin: 0 auto;
+    /* overflow: auto; */
+    padding: 20px;
+    margin-top: 50px;
+
+}
+
+#portfolio {
+    background-color: #ffffff;
+    border: 1px solid #dddddd;
+    width: 960px;
+    height: 750px;
+    margin: 0 auto;
+    /* overflow: auto; */
+    padding: 20px;
+    margin-top: 50px;
+}
+
+.label-one {
+    background-color: #4aaaa5;
+    width: 250px;
+    height: 50px;
+
+}
+
+
+img {
+    float: left;
+    margin-right: 20px;
+}
+
+a {
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color: #777;
+    padding: 15px;
+    font-size: 10pt;
+    /* margin: 0 auto; */
+}
+
+a:visited {
+    color: #777;
+}
+
+a:active {
+    color: #777;
+}
+
+
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left: 10px;
+    margin-top: 10px;
+    color: #4aaaa5;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11pt;
+    line-height: 19pt;
+    color: #777;
+}
+
+
+
+.name {
+    background-color: #4aaaa5;
+    color: white;
+    width: 265px;
+    height: 70px;
+    border: none;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20pt;
+    font-weight: bold;
+    margin-left: 170px;
+    margin-right: 500px;
+    margin-top: 30px;
+    /* margin: 0 auto; */
+    
+}
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    /* border-radius: 4px; */
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: #4aaaa5;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    /* border-radius: 4px; */
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #4aaaa5;
+}
+
+.container {
+    border-radius: 5px;
+    /* background-color: #f2f2f2; */
+    /* padding: 20px; */
+    font-family: Arial, Helvetica, sans-serif;
+    color: #777;
+    font-size: 12pt;
+}
+
+.footer {
+    background-color: #666666;
+    height: 50px;
+    /* margin: 0px; */
+    border-top: 8px solid #4aaaa5;
+    margin-top: -50px;
+    /* margin-bottom: 0px; */
+    /* bottom: 0px; */
+    /* right: 0px; */
+    /* left: 0px; */
+}
+.content {
+    min-height: calc(50vh - 70px);
+    /* min-height: 100%; */
+  } 
+
+.middle {
+    float: left;
+    margin-top: 20px;
+
+}
+
+.down {
+    float: left;
+    margin-top: 20px;
+}
+
+.top {
+    position: relative;
+}
+
+.text-block {
+    position: absolute;
+    width: 250px;
+    height: 50px;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    margin-top: 140px;
+}
+
+h3 {
+    margin-top: 15px;
+    font-weight: none;
+    font-size: 15pt;
+}
+
+.text-block-two {
+    position: absolute;
+    width: 250px;
+    height: 50px;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    margin-top: 140px;
+    margin-left: 270px;
+}
+
+.text-block-three {
+    position: absolute;
+    width: 250px;
+    height: 50px;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    margin-top: 140px;
+    margin-bottom: 425px;
+}
+
+.text-block-four {
+    position: absolute;
+    width: 250px;
+    height: 50px;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    margin-top: 140px;
+    margin-left: 270px;
+    margin-top: 140px;
+}
+
+.text-block-five {
+    position: absolute;
+    width: 250px;
+    height: 50px;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    margin-top: 140px;
+    /* margin-bottom: 425px; */
+}
